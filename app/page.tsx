@@ -26,16 +26,20 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center max-w-md mx-auto">
           <div className="flex flex-col items-center text-center">
-            <Image
-              src="/images/aditya.png"
-              alt="Photo of Aditya"
-              width={128}
-              height={128}
-              className="rounded-full object-cover"
-              priority
-            />
+            <Link href="https://x.com/adityasaravana" className="group">
+              <Image
+                src="/images/aditya.png"
+                alt="Photo of Aditya"
+                width={128}
+                height={128}
+                className="rounded-full object-cover transition-transform hover:scale-105 cursor-pointer"
+                priority
+              />
+            </Link>
             <div className="flex items-center gap-1 mt-4">
-              <h2 className="text-xl font-instrument-serif font-bold">Aditya</h2>
+              <Link href="https://x.com/adityasaravana" className="hover:underline">
+                <h2 className="text-xl font-instrument-serif font-bold">Aditya</h2>
+              </Link>
               <div className="flex gap-1">
                 <a href="https://x.com/adityasaravana" className="p-1 transition-colors">
                   <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
@@ -48,11 +52,15 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="w-32 h-32 rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center">
-              <span className="text-gray-500 dark:text-gray-400 text-sm">Photo</span>
-            </div>
+            <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="group">
+              <div className="w-32 h-32 rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center transition-transform hover:scale-105 cursor-pointer">
+                <span className="text-gray-500 dark:text-gray-400 text-sm">Photo</span>
+              </div>
+            </Link>
             <div className="flex items-center gap-1 mt-4">
-              <h2 className="text-xl font-instrument-serif font-bold">Andy</h2>
+              <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="hover:underline">
+                <h2 className="text-xl font-instrument-serif font-bold">Andy</h2>
+              </Link>
               <div className="flex gap-1">
                 <Link href="https://x.com/andmath173842" className="p-1 transition-colors">
                   <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
