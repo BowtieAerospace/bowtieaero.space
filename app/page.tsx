@@ -41,10 +41,10 @@ export default function Home() {
                 <h2 className="text-xl font-instrument-serif font-bold">Aditya</h2>
               </Link>
               <div className="flex gap-1">
-                <a href="https://x.com/adityasaravana" className="p-1 transition-colors">
+                <a href="https://x.com/adityasaravana" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
                 </a>
-                <a href="https://www.linkedin.com/in/adityasaravana/" className="p-1 transition-colors">
+                <a href="https://www.linkedin.com/in/adityasaravana/" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
                 </a>
               </div>
@@ -62,10 +62,10 @@ export default function Home() {
                 <h2 className="text-xl font-instrument-serif font-bold">Andy</h2>
               </Link>
               <div className="flex gap-1">
-                <Link href="https://x.com/andmath173842" className="p-1 transition-colors">
+                <Link href="https://x.com/andmath173842" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="p-1 transition-colors">
+                <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
                 </Link>
               </div>
