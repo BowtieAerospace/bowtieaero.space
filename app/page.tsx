@@ -70,6 +70,10 @@ export default function Home() {
         <p className="text-sm font-mono">
           Wanna talk? <Link href="mailto:hi@bowtieaero.space" className="text-blue-500">Say hi.</Link>
         </p>
+
+        <p className="text-sm font-mono">
+          Follow us on <Link href="https://x.com/bowtieaerospace" className="text-blue-500">X</Link> for updates.
+        </p>
       </main>
     </div>
   );
