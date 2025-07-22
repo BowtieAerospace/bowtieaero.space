@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[8px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-[8px] row-start-2 items-start w-full max-w-4xl">
         <Image
           className="rounded-md"
           src="/images/logo.png"
@@ -24,7 +24,7 @@ export default function Home() {
           We&apos;re two high schoolers trying to vibe-clone SpaceX.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center max-w-md mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center sm:justify-start max-w-md mx-auto sm:mx-0">
           <div className="flex flex-col items-center text-center">
             <Link href="https://x.com/adityasaravana" className="group">
               <Image
