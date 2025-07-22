@@ -53,9 +53,14 @@ export default function Home() {
 
           <div className="flex flex-col items-center text-center">
             <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="group">
-              <div className="w-32 h-32 rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center transition-transform hover:scale-105 cursor-pointer">
-                <span className="text-gray-500 dark:text-gray-400 text-sm">Photo</span>
-              </div>
+            <Image
+                src="/images/andy.jpeg"
+                alt="Photo of Andy"
+                width={128}
+                height={128}
+                className="rounded-full object-cover transition-transform hover:scale-105 cursor-pointer"
+                priority
+              />
             </Link>
             <div className="flex items-center gap-1 mt-4">
               <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="hover:underline">
@@ -76,11 +81,11 @@ export default function Home() {
         </div>
         <br></br>
         <p className="text-sm font-mono">
-          Wanna talk? <Link href="mailto:hi@bowtieaero.space" className="text-blue-500">Say hi.</Link>
+          Wanna talk? <Link href="mailto:hi@bowtieaero.space" className="text-blue-500 hover:underline">Say hi.</Link>
         </p>
 
         <p className="text-sm font-mono">
-          Follow us on <Link href="https://x.com/bowtieaerospace" className="text-blue-500">X</Link> for updates.
+          Follow us on <Link href="https://x.com/bowtieaerospace" className="text-blue-500 hover:underline">X</Link> for updates.
         </p>
       </main>
     </div>
