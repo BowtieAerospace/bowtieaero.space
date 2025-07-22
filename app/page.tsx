@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
 
         <p className="text-sm font-mono">
-          We're two high schoolers trying to vibe-clone SpaceX.
+          We&apos;re two high schoolers trying to vibe-clone SpaceX.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center max-w-md mx-auto">
