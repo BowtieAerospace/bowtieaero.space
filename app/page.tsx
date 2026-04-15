@@ -38,7 +38,7 @@ export default function Home() {
           We&apos;re two high school sophomores building a rocket that lands like SpaceX.
         </h1>
 
-        <p className="text-sm font-mono">No parachute, Baby Falcon uses thrust vector control and a hoverslam to land. Completely custom software and hardware. <span className="text-gray-400">(For nerds: Kalman &amp; Extended Kalman filters, custom avionics, hoverslam, quaternion-based attitude, PIDs, custom TVC & legs.)</span></p>
+        <p className="text-sm font-mono">No parachute, Baby Falcon uses thrust vector control and a hoverslam to land. Completely custom software and hardware. Launching April 2026. <span className="text-gray-400">(For nerds: Kalman &amp; Extended Kalman filters, custom avionics, hoverslam, quaternion-based attitude, PIDs, custom TVC & legs.)</span></p>
 
         <div className="w-full mt-6 overflow-hidden">
           <iframe
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <Link href="https://x.com/adityasaravana" className="group">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D5603AQEVDFeXuKIxxA/profile-displayphoto-scale_400_400/B56Zx5t2l2G4Ag-/0/1771568604615?e=1775088000&v=beta&t=rcPgjTJW00i5xnXkvzWK8cmsCTMWJqPG5pTvM4w2ZdA"
+                src="/images/aditya.jpg"
                 alt="Photo of Aditya"
                 width={128}
                 height={128}
