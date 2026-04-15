@@ -12,7 +12,7 @@ export default function Home() {
       <nav className="w-full px-8 pt-4 sm:px-20 flex items-center justify-between">
         <span className="text-lg font-pixel">Baby Falcon</span>
         <div className="flex gap-3">
-          <a href="https://x.com/bowtieaerospace" className="p-1 transition-transform hover:scale-125">
+          <a href="https://x.com/baby___falcon" className="p-1 transition-transform hover:scale-125">
             <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-300" />
           </a>
           <a href="mailto:hi@babyfalcon.space" className="p-1 transition-transform hover:scale-125">
