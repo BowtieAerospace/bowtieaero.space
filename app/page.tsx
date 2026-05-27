@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </nav>
       <div className="flex justify-center p-8 pb-20 sm:p-20">
-      <main className="flex flex-col gap-[8px] items-center text-center w-full max-w-4xl">
+      <main className="flex flex-col gap-[8px] items-center text-center w-full max-w-6xl">
         {/*<Image
           className="rounded-md"
           src="/images/logo.png"
@@ -40,14 +40,23 @@ export default function Home() {
 
         <p className="text-sm font-mono">No parachute, Baby Falcon uses thrust vector control and a hoverslam to land. Completely custom software and hardware. Launching April 2026. <span className="text-gray-400">(For nerds: Kalman &amp; Extended Kalman filters, custom avionics, hoverslam, quaternion-based attitude, PIDs, custom TVC & legs.)</span></p>
 
-        <div className="w-full mt-6 overflow-hidden">
-          <iframe
-            src="https://gmail1028325.autodesk360.com/g/shares/SH286ddQT78850c0d8a4a5d1841d24301e8e"
-            className="w-full"
-            style={{ height: '480px' }}
-            allowFullScreen
-            title="Baby Falcon 3D Model"
-          />
+        <div className="w-full mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="overflow-hidden">
+            <iframe
+              src="https://gmail1028325.autodesk360.com/g/shares/SH286ddQT78850c0d8a4a5d1841d24301e8e"
+              className="w-full aspect-video"
+              allowFullScreen
+              title="Baby Falcon 3D Model"
+            />
+          </div>
+          <div className="overflow-hidden">
+            <video
+              src="/mcsimdemo.mp4"
+              className="w-full aspect-video"
+              controls
+              playsInline
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12">
